@@ -1,5 +1,6 @@
-use guessing_game;
+mod guessing_game;
+use crate::guessing_game::run_game;
 
 fn main() {
-    guessing_game::test();
+    run_game();
 }
